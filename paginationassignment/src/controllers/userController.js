@@ -16,7 +16,7 @@ router.post("/",async(req,res)=>{
         transporter.sendMail({
             from: '"Abhishek" <admin@amazon.com>', 
             to: user.email, 
-            subject: `Welcome to amazon system ${user.first_name}` ,
+            subject: `Welcome to ABC system ${user.first_name}` ,
             text: `Hi ${user.first_name} `,
           });
       
